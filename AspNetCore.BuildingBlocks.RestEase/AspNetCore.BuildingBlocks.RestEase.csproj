@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>AspNetCore.BuildingBlocks.RestEase</RootNamespace>
+    <AssemblyName>AspNetCore.BuildingBlocks.RestEase</AssemblyName>
+    <PackageId>AspNetCore.BuildingBlocks.RestEase</PackageId>
+    <Version>1.0.0</Version>
+    <Title>AspNetCore.BuildingBlocks.RestEase</Title>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>GVG</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>Pegasus;AspNet;Core;BuildingBlocks;RestEase;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.BuildingBlocks.Options" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    <PackageReference Include="RestEase" Version="1.6.1" />
+  </ItemGroup>
+
+</Project>

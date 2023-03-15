@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>AspNetCore.BuildingBlocks.Database.EF</RootNamespace>
+    <AssemblyName>AspNetCore.BuildingBlocks.Database.EF</AssemblyName>
+    <PackageId>AspNetCore.BuildingBlocks.Database.EF</PackageId>
+    <Version>1.0.1</Version>
+    <Title>AspNetCore.BuildingBlocks.Database.EF</Title>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>GVG</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>Pegasus;AspNet;Core;BuildingBlocks;Database;EF;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.BuildingBlocks.Database" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

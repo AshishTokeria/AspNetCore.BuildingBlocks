@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>AspNetCore.BuildingBlocks.Mvc</RootNamespace>
+    <AssemblyName>AspNetCore.BuildingBlocks.Mvc</AssemblyName>
+    <PackageId>AspNetCore.BuildingBlocks.Mvc</PackageId>
+    <Version>1.0.0</Version>
+    <Title>AspNetCore.BuildingBlocks.Mvc</Title>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>GVG</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>Pegasus;AspNet;Core;BuildingBlocks;Mvc;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.HttpOverrides" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
+  </ItemGroup>
+
+</Project>

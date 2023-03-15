@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>AspNetCore.BuildingBlocks.Authentication.Client</RootNamespace>
+    <AssemblyName>AspNetCore.BuildingBlocks.Authentication.Client</AssemblyName>
+    <PackageId>AspNetCore.BuildingBlocks.Authentication.Client</PackageId>
+    <Version>1.0.0</Version>
+    <Title>AspNetCore.BuildingBlocks.Authentication.Client</Title>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>GVG</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>Pegasus;AspNet;Core;BuildingBlocks;Authentication;Client;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
